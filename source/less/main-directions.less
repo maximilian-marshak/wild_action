@@ -1,0 +1,187 @@
+.main-directions {
+  margin-bottom: 72px;
+}
+
+.main-directions__title {
+  width: 465px;
+  .title-style;
+  margin-bottom: 45px;
+}
+
+.main-directions__list {
+  display: flex;
+  flex-wrap: wrap;
+  .list-style;
+}
+
+.main-directions__item {
+  width: 360px;
+  height: 432px;
+  margin-right: 24px;
+  margin-bottom: 24px;
+}
+
+.main-directions__item:hover {
+  transform: scale(1.05, 1.05);
+  cursor: pointer;
+}
+
+.main-directions__item:hover .main-direction__item-description {
+  background-color: @font-white;
+}
+
+.main-directions__item:hover .main-direction__item-description-title-link,
+.main-directions__item:hover .main-direction__item-description-text,
+.main-directions__item:hover .main-direction__item-description-link {
+  color: @basic-grey;
+}
+
+.main-directions__item:nth-child(3n) {
+  margin-right: 0;
+}
+
+.main-direction__item-price {
+  display: flex;
+  align-items: flex-end;
+  width: 360px;
+  height: 191px;
+  padding-bottom: 25px;
+  border-radius: 4px 4px 0 0;
+}
+
+.main-direction__item-price--first {
+  background-image: url("/img/hardanger.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-direction__item-price--second {
+  background-image: url("/img/Sognefjord.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-direction__item-price--third {
+  background-image: url("/img/ushba.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-direction__item-price--four {
+  background-image: url("/img/Syme.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-direction__item-price--fifth {
+  background-image: url("/img/Sørfjorden.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position-x: center;
+}
+
+.main-direction__item-price--six {
+  background-image: url("/img/Landmanaluga.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-direction__item-price-value {
+  width: 75px;
+  height: 32px;
+  color: @basic-grey-dark;
+  background-color: @basic-yellow;
+  padding-left: 3px;
+}
+
+.main-direction__item-price-count {
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 32px;
+}
+
+.main-direction__item-price-number {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+.main-direction__item-price-time {
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 32px;
+  text-align: center;
+
+  width: 170px;
+  height: 32px;
+  background-color: @basic-grey-dark-bg;
+  border-radius: 0px 6px 6px 0px;
+}
+
+.main-direction__item-description {
+  background-color: @basic-grey-bg;
+  padding-top: 16px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 24px;
+  border-radius: 0 0 4px 4px;
+}
+
+.main-direction__item-description-title-link {
+  display: block;
+  text-decoration: none;
+
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 500;
+
+  margin-bottom: 16px;
+
+  color: @font-white;
+}
+
+.main-directions__item:hover .main-direction__item-description-title-link:hover {
+  color: @basic-yellow;
+}
+
+.main-direction__item-description-text {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-bottom: 17px;
+}
+
+.main-direction__item-description-link {
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 16px;
+  color: @font-white-opacity;
+}
+
+.main-directions__item:hover .main-direction__item-description-link:hover {
+  color: @basic-yellow;
+}
+
+.main-direction__button {
+  display: block;
+
+  text-decoration: none;
+  color: @font-white;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+
+  width: 214px;
+  height: 34px;
+  border: 1px solid @basic-yellow;
+  border-radius: 4px;
+  padding-top: 11px;
+  margin: 0 auto;
+}
+
+.main-direction__button:hover {
+  background-color: @basic-yellow;
+  color: @basic-black;
+}

@@ -1,0 +1,91 @@
+
+.page-header {
+  display: flex;
+  align-items: center;
+  margin-top: 29px;
+  margin-bottom: 80px;
+}
+
+.page-header__logo {
+  margin-right: 33px;
+}
+
+.page-header__logo-img {
+  height: 50px;
+  width: 183px;
+}
+
+.page-header__language-list {
+  display: flex;
+  .list-style;
+  margin-right: 179px;
+}
+
+.page-header__language-item {
+  margin-right: 21px;
+}
+
+.page-header__language-item:last-child {
+  margin-right: 0;
+}
+
+.page-header__language-link {
+  font-size: 13px;
+  font-weight: 500;
+  color: @basic-grey-noactive;
+  text-decoration: none;
+}
+
+.page-header__language-link--active {
+  color: @font-white;
+}
+
+.page-header__language-link:hover {
+  color: @basic-yellow;
+}
+
+.main-nav__toggle {
+  display: none;
+}
+
+.main-nav__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 657px;
+  .list-style;
+}
+
+.main-nav__link--last {
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 1px solid @basic-yellow;
+  border-radius: 10px;
+}
+
+.main-nav__link {
+  display: block;
+  font-size: 18px;
+  font-weight: 400;
+  color: @font-white;
+  text-decoration: none;
+
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.main-nav__link:hover {
+  border-bottom: 1px solid @basic-yellow;
+}
+
+.main-nav__link--last:hover {
+  border-bottom: none;
+  background-color: @basic-yellow;
+  color: @basic-grey;
+}
+
+.main-nav__link--last:active {
+  background-color: @basic-yellow-dark;
+}
